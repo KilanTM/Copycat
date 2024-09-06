@@ -1,0 +1,226 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar {
+    overflow-x: hidden;
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    border-top: 3px solid #f87217;
+}
+
+.search-bar{
+    border-radius: 6px;
+    padding: 5px 100% 5px 0;
+    position: relative;
+    bottom: -10px;
+}
+
+.search {
+    width: 40%;
+}
+
+.search-icon {
+    position: relative;
+    top: -15px;
+    right: -3px;
+}
+
+.navbar a{
+    color: gray;
+    text-align: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.stack-full{
+    margin: 0 0;
+    width: 100%;
+}
+
+.stack-full-link{
+    margin: 0 0;
+    width: 10%;
+}
+
+.menu{
+    width: 100%;
+}
+
+.menu-link{
+    width: 2%;
+    margin-left: 10%
+}
+
+.stack-img-cont {
+    display: flex;
+    justify-content: center;
+    margin: 6.5% 0% 0% 0%
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.log-text{
+    box-shadow: black 0px 0px 2px 0.00001px ;
+    border-radius: 3%;
+    background-color: white;
+    width: 23%;
+    height: 33vh;
+}
+
+.email{
+    margin: 7% 0% 0% 6%;
+}
+
+.pass{
+    margin: 7% 0% 0% 6%;
+}
+
+.forgor{
+    float: right;
+    margin: 7% 10% 0% 0%;
+    color: rgb(59, 135, 236);
+    text-decoration: none;
+
+}
+
+.name-txt {
+    margin: 0% 0% 0% 5%;
+    border-radius: 6px;
+    border: 1px solid gray;
+    width: 82%;
+    height: 4vh;
+}
+
+.pass-txt{
+    margin: 0% 0% 0% 5%;
+    border-radius: 6px;
+    border: 1px solid gray;
+    width: 82%;
+    height: 4vh;
+}
+
+.fin{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0% 0% 0%;
+}
+
+.finish{
+    padding-left: 36.5%;
+    padding-right: 36.3%;
+    height: 5vh;
+    background-color: rgb(59, 135, 236);
+    border-radius: 6px;
+    border: 0px;
+    margin-bottom: 3.5%;
+    color: rgb(255, 255, 255);
+    cursor: pointer
+}
+
+.background{
+    background-color: rgb(240, 240, 240);
+}
+
+.stack {
+    width: 4.5%;
+    margin-bottom: 1%;
+}
+
+.ref-logs-tab{
+    display: flex;
+    justify-content: center;
+}
+
+.google{
+    width: 23%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 6px;
+    border: 0px;
+    margin-bottom: 0.5%;
+    cursor: pointer
+}
+
+.github{
+    width: 23%;
+    height: 5vh;
+    background-color: black;
+    border-radius: 6px;
+    border: 0px;
+    margin-bottom: 0.5%;
+    color: white;
+    cursor: pointer
+}
+
+.facebook{
+    width: 23%;
+    height: 5vh;
+    background-color: #354394;
+    border-radius: 6px;
+    border: 0px;
+    margin-bottom: 1%;
+    color: white;
+    cursor: pointer
+}
+
+.bok-pic{
+    width: 8%;
+    margin-bottom: -2.5%;
+}
+.git-pic{
+    width: 6.5%;
+    margin-bottom: -1.8%;
+}
+
+.goo-pic{
+    width: 5%;
+    margin-bottom: -1%
+}
+
+.google-btn-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.github-btn-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook-btn-cont {
+    display:flex;
+    justify-content: center;
+}
+
+.random-line{
+    width: 83%;
+    border: 0;
+    border-top: 0.5px solid gray;
+}
+
+.last-part{
+    text-align: center;
+}
+
+.last-part a{
+    text-decoration: none;
+    color: rgb(59, 135, 236);
+}
+
+.bs{
+    color: rgb(59, 135, 236);
+}
