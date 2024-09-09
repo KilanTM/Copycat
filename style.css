@@ -35,7 +35,7 @@
     right: -3px;
 }
 
-.navbar a{
+.navbar .mini1{
     color: gray;
     text-align: none;
     text-decoration: none;
@@ -216,7 +216,7 @@
     text-align: center;
 }
 
-.last-part a{
+.last-part .over{
     text-decoration: none;
     color: rgb(59, 135, 236);
 }
